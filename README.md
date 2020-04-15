@@ -8,8 +8,11 @@ Dropdown of bootstrap can be easily changed to infinite level. It's a pity that 
 
 ## Usage
 
-JustAdd js after include jquery and bootstrap js files <script src="js/bootstrap4-dropdown-ml-hack.js"></script>
+Just add js after jquery and bootstrap js files 
 
+```html
+<script src="bootstrap4-dropdown-ml-hack.js"></script>
+```
 ## Demo
 
 Here is a perfect demo: https://jsfiddle.net/dallaslu/adky6jvs/ (works with Bootstrap v4.4.1)
