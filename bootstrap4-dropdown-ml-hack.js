@@ -18,8 +18,8 @@ $(function() {
         e.stopPropagation();
     });
     $('.dropdown').on('hide.bs.dropdown', function(e) {
-        if ($(this).is('.has-child-dropdown-show')) {
-        		$(this).removeClass('has-child-dropdown-show');
+        if ($(this).hasClass('.has-child-dropdown-show')) {
+        	$(this).removeClass('has-child-dropdown-show');
             e.preventDefault();
         }
     });
