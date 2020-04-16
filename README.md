@@ -44,7 +44,7 @@ $('.dropdown-hover-all').on('mouseleave', '.dropdown', function() {
 ```
 Or just using:
 ```html
-<link rel="stylesheet" href="assets/css/bootstrap4-dropdown-ml-hack-hover.css" />
+<link rel="stylesheet" href="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack-hover.css" />
 ...
 <script src="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack-hover.js"></script>
 ```
