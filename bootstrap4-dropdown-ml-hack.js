@@ -14,14 +14,13 @@ $.fn.dropdown = (function() {
 $(function() {
     $('.dropdown [data-toggle="dropdown"]').on('click', function(e) {
         $(this).dropdown('toggle');
-        e.preventDefault();
-        e.stopPropagation();
+        e.stopPropagation(); // do not fire dropdown.js click event, it will call 'this.toggle()' internal
     });
     $('.dropdown').on('hide.bs.dropdown', function(e) {
         if ($(this).is('.has-child-dropdown-show')) {
         	$(this).removeClass('has-child-dropdown-show');
             e.preventDefault();
         }
-        e.stopPropagation();    // not need pop in multi level mode
+        e.stopPropagation();    // do not need pop in multi level mode
     });
 });
