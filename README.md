@@ -8,11 +8,13 @@ Dropdown of bootstrap can be easily changed to infinite level. It's a pity that 
 
 ## Usage
 
+### Base
 Just add js after jquery and bootstrap js files 
 
 ```html
 <script src="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack.js"></script>
 ```
+### Hover
 If your want a hover tigger, just add class and some custom styles to reduce spacing to avoid triggering mouseleave.
 ```css
 .dropdown-hover-all .dropdown-menu, .dropdown-hover > .dropdown-menu { margin:0 }
@@ -40,7 +42,12 @@ $('.dropdown-hover-all').on('mouseleave', '.dropdown', function() {
   }
 });
 ```
-
+Or just using:
+```html
+<link rel="stylesheet" href="assets/css/bootstrap4-dropdown-ml-hack-hover.css" />
+...
+<script src="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack-hover.js"></script>
+```
 
 ## Demo
 
