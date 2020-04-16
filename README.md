@@ -46,6 +46,13 @@ Or just using:
 ```html
 <link rel="stylesheet" href="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack-hover.css" />
 ...
+<div class="dropdown-hover-all">
+  <!-- .dropdown element -->
+</div>
+<div class="dropdown dropdown-hover">
+  <!-- toggle and menu element -->
+</div>
+...
 <script src="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack-hover.js"></script>
 ```
 
