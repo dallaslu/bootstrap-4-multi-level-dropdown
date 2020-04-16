@@ -19,7 +19,7 @@ If your want a hover tigger, just add class and some custom styles to reduce spa
 ```css
 .dropdown-hover-all .dropdown-menu, .dropdown-hover > .dropdown-menu { margin:0 }
 ```
-Then, add event handler(suggest 'toggle' for best experience):
+Then, add event handler (suggest 'toggle' for best experience):
 ```javascript
 $('.dropdown-hover').on('mouseenter',function() {
   if(!$(this).hasClass('show')){
