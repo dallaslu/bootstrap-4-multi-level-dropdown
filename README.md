@@ -47,10 +47,10 @@ Or just using:
 <link rel="stylesheet" href="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack-hover.css" />
 ...
 <div class="dropdown-hover-all">
-  <!-- .dropdown element -->
+  <!-- .dropdown elements -->
 </div>
 <div class="dropdown dropdown-hover">
-  <!-- toggle and menu element -->
+  <!-- toggle and menu elements -->
 </div>
 ...
 <script src="https://raw.githubusercontent.com/dallaslu/bootstrap-4-multi-level-dropdown/master/bootstrap4-dropdown-ml-hack-hover.js"></script>
@@ -58,4 +58,4 @@ Or just using:
 
 ## Demo
 
-Here is a perfect demo: https://jsfiddle.net/dallaslu/adky6jvs/ (works with Bootstrap v4.4.1)
+Here is a perfect demo: https://jsfiddle.net/dallaslu/adky6jvs/ (works well with Bootstrap v4.4.1)
