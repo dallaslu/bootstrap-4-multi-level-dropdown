@@ -15,20 +15,30 @@ Just add js after jquery and bootstrap js files
 ```
 If your want a hover tigger, just add class and some custom styles to reduce spacing to avoid triggering mouseleave.
 ```css
-.dropdown-hover-all .dropdown-menu { margin:0 }
+.dropdown-hover-all .dropdown-menu, .dropdown-hover > .dropdown-menu { margin:0 }
 ```
 Then, add event handler(suggest 'toggle' for best experience):
 ```javascript
+$('.dropdown-hover').on('mouseenter',function() {
+  if(!$(this).hasClass('show')){
+    $('>[data-toggle="dropdown"]', this).dropdown('toggle');
+  }
+});
+$('.dropdown-hover').on('mouseleave',function() {
+  if($(this).hasClass('show')){
+    $('>[data-toggle="dropdown"]', this).dropdown('toggle');
+  }
+});
 $('.dropdown-hover-all').on('mouseenter', '.dropdown', function() {
   if(!$(this).hasClass('show')){
-    $('>[data-toggle="drpodown"]', this).dropdown('toggle');
+    $('>[data-toggle="dropdown"]', this).dropdown('toggle');
   }
-}
+});
 $('.dropdown-hover-all').on('mouseleave', '.dropdown', function() {
   if($(this).hasClass('show')){
-    $('>[data-toggle="drpodown"]', this).dropdown('toggle');
+    $('>[data-toggle="dropdown"]', this).dropdown('toggle');
   }
-}
+});
 ```
 
 
