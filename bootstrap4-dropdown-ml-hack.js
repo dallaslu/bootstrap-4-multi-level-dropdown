@@ -22,5 +22,6 @@ $(function() {
         	$(this).removeClass('has-child-dropdown-show');
             e.preventDefault();
         }
+        e.stopPropagation();    // not need pop in multi level mode
     });
 });
