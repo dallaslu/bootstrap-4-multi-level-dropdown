@@ -1,5 +1,7 @@
 # Bootstrap 4 Multiple Level Dropdown
 
+For Bootstrap 5, please visit [Bootstrap 5 Multiple Level Dropdown](https://github.com/dallaslu/bootstrap-5-multi-level-dropdown)
+
 Using official HTML without adding extra CSS styles and classes, it's just like native support. 
 
 All things listed in https://getbootstrap.com/docs/4.4/components/dropdowns/ are not effected. You can use css classes and js methods/events/options freely.
